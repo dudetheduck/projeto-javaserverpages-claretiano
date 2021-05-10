@@ -1,0 +1,141 @@
+:root {
+    --cor-principal: #3c2117;
+    --cor-secundaria: #dfc68f;
+    --white-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, sans-serif;
+    background-image: url("https://2f4u.fansubs.com.br/wp-content/uploads/2017/07/site-background.jpg");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 15px 30px;
+    background: var(--cor-principal);
+    color: var(--cor-secundaria);
+}
+
+header #lib {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+header li {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+header a:hover {
+    color: rgba(255, 255, 255, 6.618);
+}
+
+#divSearch {
+    padding-top: 2px;
+    width: 220px;
+}
+
+#txtSearch {
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 15px;
+    border: none;
+    height: 20px;
+    width: 150px;
+}
+
+header i {
+    padding-left: 5px;
+}
+
+/* header ⬆⬆⬆ */
+
+fieldset {
+    margin: 100px auto;
+    padding: 35px;
+    width: 400px;
+}
+
+legend {
+    margin-bottom: 30px;
+    font-size: 43px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, sans-serif;
+    color: var(--cor-secundaria);
+}
+
+input, select {
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 0;
+    padding: 2px;
+    width: 60%;
+}
+
+fieldset div {
+    padding-top: 4px;
+    text-align: center;
+}
+
+fieldset button {
+    font-family: 'Times New Roman', Times, sans-serif;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* Login ⬆⬆⬆ */
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 40px auto 0 auto;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.form input[type="submit"] {
+    padding: 20px 0;
+}
